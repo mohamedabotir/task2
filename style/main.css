@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+h1 {
+color: rgb(36, 36, 228);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul li {
+    list-style-type: none;
+    
+}
+header {
+    display: flex;
+    justify-content:space-between;
+}
+.container{
+    position: fixed;
+    width:15%;
+    top: 0;
+    right: 0;
+    opacity: .7;
+    text-align: left;
+    background:rgb(147, 147, 240);
+    height: 100%;
+    padding-top: 2em;
+}
+.nav-bar #menu{
+    float: right;
+ top: 0;
+ margin-right : 5px ;
+}
+.nav-bar ul {
+    position: relative;
+    margin-top:3px ;
+}
+.nav-bar ul li {
+    margin-top:15px ;
+    padding: 10px;
+    width: 60%;
+}
+.nav-bar ul li a:hover {
+    color: green;
+}
+.form-container {
+    position: relative;
+    width: 40%;
+    margin: 1.5em 40% 1.5em auto;
+text-align: center;
+background-color: whitesmoke;
+z-index: 7;
+border-radius: 20px;
+box-shadow:10px 10px 8px #888888;
+height: 500px;
+}
+
+.getData .field,#go {
+    margin: 5px;
+    outline: none;
+    text-align: center;
+    margin-left: 25% ;
+padding: 15px;
+border: solid black 1px;
+border-radius: 25px ;
+    display: block;
+    width: 50%;
+    background-color: honeydew;
+    margin-top: 20px;
+    
+}
+#go {
+    margin-left : 28% ;
+}
+.links {
+    color: rgb(36, 36, 228);
+    margin-top: 20px;
+}
+.field:focus {
+
+border-color: green;
+}
+#go:hover {
+    background-color: green;
+}
